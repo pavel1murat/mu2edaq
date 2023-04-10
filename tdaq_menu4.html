@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Multilevel Sliding Accordion Menu Demo</title>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/tdaq_menu4.css">
+
+</head>
+
+<center>
+<h2 >Mu2e  hardware configurations </h2>
+</center>
+
+<body>
+  <header role="banner">
+    <nav class="nav" role="navigation">
+      <ul class="nav__list">
+        <!-- Mu2e detector configuration - for data taking -->
+        
+        <li> <input id="l0-group-1" type="checkbox" hidden />
+          <label for="l0-group-1"><span class="fa fa-angle-right"></span>Mu2e detector configuration</label>
+          <ul class="l0-group-list">
+            <li><a href="#">general stuff</a></li>
+<!-- tracker -->
+            <li> <input id="l1-group-1" type="checkbox" hidden />
+              <label for="l1-group-1"><span class="fa fa-angle-right"></span>Tracker</label>
+              <ul class="l1-group-list">
+                <li><a href="#">DTC 0</a></li>
+                <ul class="l2-group-list">
+                  <li><a href="#">ROC 0</a></li>
+                  <li><a href="#">ROC 1</a></li>
+                  <li><a href="#">ROC 2</a></li>
+                </ul>
+                <li><a href="#">DTC 1</a> </li>
+                <ul class="l2-group-list">
+                  <li><a href="#">ROC 0</a></li>
+                  <li><a href="#">ROC 1</a></li>
+                  <li><a href="#">ROC 2</a></li>
+                </ul>
+              </ul>
+<!-- calorimeter -->
+            <li> <input id="l2-group-1" type="checkbox" hidden />
+              <label for="l2-group-1"><span class="fa fa-angle-right"></span>Calorimeter</label>
+              <ul class="l2-group-list">
+                <li><a href="#">ROC 0</a></li>
+                <li><a href="#">ROC 1</a></li>
+                <li><a href="#">ROC 2</a></li>
+              </ul>
+<!-- CRV -->
+            <li> <input id="l2-group-1" type="checkbox" hidden />
+              <label for="l2-group-1"><span class="fa fa-angle-right"></span>CRV</label>
+              <ul class="l2-group-list">
+                <li><a href="#">ROC 0</a></li>
+                <li><a href="#">ROC 1</a></li>
+                <li><a href="#">ROC 2</a></li>
+              </ul>
+<!-- STM -->
+            <li> <input id="l2-group-1" type="checkbox" hidden />
+              <label for="l2-group-1"><span class="fa fa-angle-right"></span>STM</label>
+              <ul class="l2-group-list">
+                <li><a href="#">ROC 0</a></li>
+                <li><a href="#">ROC 1</a></li>
+                <li><a href="#">ROC 2</a></li>
+              </ul>
+<!-- EXM -->
+            <li> <input id="l2-group-1" type="checkbox" hidden />
+              <label for="l2-group-1"><span class="fa fa-angle-right"></span>EXM</label>
+              <ul class="l2-group-list">
+                <li><a href="#">ROC 0</a></li>
+                <li><a href="#">ROC 1</a></li>
+                <li><a href="#">ROC 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+<!-- tracker VST configurations-->
+        <li> <input id="l0-group-2" type="checkbox" hidden />
+          <label for="l0-group-2"><span class="fa fa-angle-right"></span>Tracker VST</label>
+          <ul class="l0-group-list">
+            <!--
+            <li><a href="#">1st level item</a></li>
+            <li><a href="#">1st level item</a></li>
+            -->
+            <input id="l1-group-21" type="checkbox" hidden />
+            <label for="l1-group-21"><span class="fa fa-angle-right"></span> Lab3:Annex </label>
+            <ul class="l1-group-list">
+              <!--
+              <li><a href="#">2nd level nav item</a></li>
+              <li><a href="#">2nd level nav item</a></li>
+              -->
+              <input id="l2-group-2101" type="checkbox" hidden />
+              <label for="l2-group-2101"><span class="fa fa-angle-right"></span> mu2edaq09.fnal.gov </label>
+              <ul class="l2-group-list">
+              
+                <input id="l2-group-2101" type="checkbox" hidden />
+                <label for="l2-group-2101"><span class="fa fa-angle-right"></span> DTC 0: OFF </label>
+                <ul class="l3-group-list">
+                  <li><a href="#">ROC 0</a></li>
+                  <li><a href="#">ROC 1</a></li>
+                </ul>
+                <input id="l2-group-2102" type="checkbox" hidden />
+                <label for="l2-group-2102"><span class="fa fa-angle-right"></span> DTC 1: ON </label>
+                <ul class="l2-group-list">
+                  <li><a href="#">ROC 0</a></li>
+                </ul>
+              </ul>
+            </ul>
+
+            <input id="l1-group-22" type="checkbox" hidden />
+            <label for="l1-group-22"><span class="fa fa-angle-right"></span> Lab3:Station </label>
+            <ul class="l1-group-list">
+              <!--
+              <li><a href="#">2nd level nav item</a></li>
+              <li><a href="#">2nd level nav item</a></li>
+              -->
+              <input id="l2-group-2201" type="checkbox" hidden />
+              <label for="l2-group-2201"><span class="fa fa-angle-right"></span> mu2edaq09.fnal.gov </label>
+              <ul class="l2-group-list">
+              
+                <input id="l2-group-2201" type="checkbox" hidden />
+                <label for="l2-group-2201"><span class="fa fa-angle-right"></span> DTC 0: ON </label>
+                <ul class="l3-group-list">
+                  <li><a href="#">ROC 0</a></li>
+                  <li><a href="#">ROC 1</a></li>
+                  <li><a href="#">ROC 2</a></li>
+                  <li><a href="#">ROC 3</a></li>
+                  <li><a href="#">ROC 4</a></li>
+                  <li><a href="#">ROC 5</a></li>
+                </ul>
+                <input id="l2-group-2202" type="checkbox" hidden />
+                <label for="l2-group-2202"><span class="fa fa-angle-right"></span> DTC 1: OFF </label>
+                <ul class="l2-group-list">
+                  <li><a href="#">ROC 0</a></li>
+                </ul>
+              </ul>
+            </ul>
+
+
+            <input id="l1-group-23" type="checkbox" hidden />
+            <label for="l1-group-23"><span class="fa fa-angle-right"></span> Michigan_001 </label>
+            <ul class="l1-group-list">
+              <li><a href="#">2nd level nav item</a></li>
+              <li><a href="#">2nd level nav item</a></li>
+              <input id="l2-group-2301" type="checkbox" hidden />
+              <label for="l2-group-2301"><span class="fa fa-angle-right"></span> DTC </label>
+              <ul class="l2-group-list">
+                <li><a href="#">3rd level nav item</a></li>
+              </ul>
+            </ul>
+          </ul>
+        </li>
+<!-- calorimeter -->
+         <li> <input id="l0-group-3" type="checkbox" hidden />
+          <label for="l0-group-3"><span class="fa fa-angle-right"></span>Calorimeter VST</label>
+          <ul class="l0-group-list">
+            <li><a href="#">1st level item</a></li>
+            <li><a href="#">1st level item</a></li>
+            <input id="l1-group-31" type="checkbox" hidden />
+            <label for="l1-group-31"><span class="fa fa-angle-right"></span> SiDet_001 </label>
+            <ul class="l1-group-list">
+              <li><a href="#">2nd level nav item</a></li>
+              <li><a href="#">2nd level nav item</a></li>
+              <li>
+                <input id="l2-group-31" type="checkbox" hidden />
+                <label for="l2-group-31"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+            <input id="l1-group-32" type="checkbox" hidden />
+            <label for="l1-group-32"><span class="fa fa-angle-right"></span> SiDet_002 </label>
+            <ul class="l1-group-list">
+              <li><a href="#">2nd level nav item</a></li>
+              <li><a href="#">2nd level nav item</a></li>
+              <li>
+                <input id="l2-group-3201" type="checkbox" hidden />
+                <label for="l2-group-3201"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+                <input id="l2-group-3202" type="checkbox" hidden />
+                <label for="l2-group-3202"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+            <input id="l1-group-33" type="checkbox" hidden />
+            <label for="l1-group-33"><span class="fa fa-angle-right"></span> Pisa_001 </label>
+            <ul class="l1-group-list">
+              <li><a href="#">2nd level nav item</a></li>
+              <li><a href="#">2nd level nav item</a></li>
+              <li>
+                <input id="l2-group-3301" type="checkbox" hidden />
+                <label for="l2-group-3301"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+                <input id="l2-group-3302" type="checkbox" hidden />
+                <label for="l2-group-3302"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </li>
+<!-- CRV VST -->
+        <li> <input id="l0-group-4" type="checkbox" hidden />
+          <label for="l0-group-4"><span class="fa fa-angle-right"></span> CRV VST </label>
+          <ul class="l0-group-list">
+            <li><a href="#">1st level item</a></li>
+            <input id="l1-group-41" type="checkbox" hidden />
+            <label for="l1-group-41"><span class="fa fa-angle-right"></span>Simon_001</label>
+            <ul class="l1-group-list">
+              <li><a href="#">DTC 0</a></li>
+              <li><a href="#">DTC 1</a></li>
+              <li><a href="#">DTC 2</a></li>
+              <li>
+                <input id="l2-group-4101" type="checkbox" hidden />
+                <label for="l2-group-4101"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                  <li><a href="#">3rd level nav item</a></li>
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+            <input id="l1-group-42" type="checkbox" hidden />
+            <label for="l1-group-42"><span class="fa fa-angle-right"></span>Wideband_002</label>
+            <ul class="l1-group-list">
+              <li><a href="#">DTC 0</a></li>
+              <li><a href="#">DTC 1</a></li>
+              <li><a href="#">DTC 2</a></li>
+              <li>
+                <input id="l2-group-4201" type="checkbox" hidden />
+                <label for="l2-group-4201"><span class="fa fa-angle-right"></span> Third level</label>
+                <ul class="l2-group-list">
+                  <li><a href="#">3rd level nav item</a></li>
+                  <li><a href="#">3rd level nav item</a></li>
+                  <li><a href="#">3rd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </li>
+ <!-- STM VST -->
+       <li> <input id="l0-group-5" type="checkbox" hidden />
+          <label for="l0-group-5"><span class="fa fa-angle-right"></span>STM VST </label>
+          <ul class="l0-group-list">
+            <li><a href="#">1st level item</a></li>
+            <input id="l1-group-5" type="checkbox" hidden />
+            <label for="l1-group-5"><span class="fa fa-angle-right"></span>DTC</label>
+            <ul class="l1-group-list">
+              <li><a href="#">DTC 0</a></li>
+              <li><a href="#">DTC 1</a></li>
+            </ul>
+          </ul>
+        </li>
+ <!-- EXM VST -->
+        <li> <input id="l0-group-6" type="checkbox" hidden />
+          <label for="l0-group-6"><span class="fa fa-angle-right"></span>EXM VST </label>
+          <ul class="l0-group-list">
+            <li><a href="#">1st level item</a></li>
+            <input id="l1-group-6" type="checkbox" hidden />
+            <label for="l1-group-6"><span class="fa fa-angle-right"></span>DTC</label>
+            <ul class="l1-group-list">
+              <li><a href="#">DTC 0</a></li>
+              <li><a href="#">DTC 1</a></li>
+            </ul>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+</body>
+</html>

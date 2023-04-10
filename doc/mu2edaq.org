@@ -1,0 +1,11 @@
+#+startup:fold
+- start from 
+- using nodejs (update package.json)
+#+begin_quote                                       
+npm init
+sass multilevel-accordion-menu.scss multilevel-accordion-menu.css
+npm run sass
+#+end_quote 
+
+- js tree           : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_treeview
+- interactive images: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_map2
